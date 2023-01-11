@@ -26,7 +26,7 @@ namespace Sınıf_Class__Nedir
             kisiler kisi=new kisiler();
             kisi.Ad = "Serhan";
             kisi.Soyad = "Koral";
-            kisi.Yas = 41;
+            kisi.Yas = 41S;
             kisi.Yazdir();
             //bu şekilde ulaşıldığı gibi create yapılırkende ulaşılır
             kisiler kisi2 = new kisiler()
@@ -37,6 +37,7 @@ namespace Sınıf_Class__Nedir
             };
             kisi2.Yazdir();
             Console.ReadKey();
+            //https://html-agility-pack.net/
         }
     }
     class DortIslem
